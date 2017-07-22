@@ -1,0 +1,197 @@
+body{
+  margin: 30px auto;
+  width: 900px;
+}
+
+header{
+  position: relative;
+  width: 900px;
+}
+
+#delicious {
+  display: inline;
+  position: relative;
+  bottom: 55px;
+  left: 50px;
+  font-family: 'Yellowtail', cursive;
+  font-size: 42px;
+}
+
+#best_blog {
+  font-size: 12px;
+  position: relative;
+  left: 50px;
+  bottom: 55px;
+  font-family: Tahoma, sans-serif;
+  color: lightgrey;
+}
+.inner_icons li{
+   display: inline;
+   position: relative;
+   left: 680px;
+   bottom: 100px;
+ }
+
+#spaced_icon {
+  margin-left: 6px;
+}
+
+main {
+  width: 900px;
+}
+
+.top_main{
+  padding: 5px;
+  height: 60px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: impact;
+
+}
+
+#posted {
+  font-size: 12px;
+  font-family: Tahoma, sans-serif;
+  letter-spacing: -0.5px;
+  color: lightgrey;
+  line-height: 20px;
+}
+
+.top_main_right {
+  display: inline-block;
+  position: relative;
+  left: 835px;
+  bottom: 20px;
+  font-family: Tahoma, sans-serif;
+  color: lightgrey;
+  font-size: 12px;
+}
+
+#img img {
+  /*width: 900px;*/
+}
+
+article {
+  margin-top: 20px;
+  color: grey;
+  font-weight: lighter;
+}
+
+.tab {
+  text-indent: 40px;
+  line-height: 20px;
+  font-family: Garamond serif;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+
+}
+
+#recipe {
+  background-image: url("img/list-bg.png");
+  height: 280px;
+  width: 900px;
+  padding: 0 0 20px 0;
+  margin: 0 0 40px 0;
+}
+
+#recipe .recipe_left li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  padding: 4px;
+  margin-left: 36px;
+  color: grey;
+}
+
+.recipe_left {
+  padding-top: 34px;
+}
+
+#recipe .recipe_right li {
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px;
+  color: gray;
+  position: relative;
+  left: 400px;
+  bottom: 193px;
+  padding: 4px;
+}
+
+.check_box_left:checked + .strikethrough {
+  text-decoration: line-through;
+}
+
+.check_box_right:checked + .strikethrough {
+  text-decoration: line-through;
+}
+
+.slash {
+  letter-spacing: -1px;
+  color: lightgrey;
+  margin: 0 0 20px 0;
+}
+
+#vanessa {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #61666d;
+  position: relative;
+  left: 85px;
+  bottom: 65px;
+}
+
+#food_enthusiast {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #787d84;
+  width: 70%;
+  position: relative;
+  left: 85px;
+  bottom: 50px;
+  line-height: 25px;
+}
+
+button {
+  width: 180px;
+  height: 60px;
+  background-color: #c46950;
+  border: 0;
+  color: white;
+  font-size: 16px;
+  position: relative;
+  left: 720px;
+  bottom: 140px;
+}
+
+hr {
+  position: relative;
+  bottom: 50px;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e1e3e8;
+  margin: 1em 0;
+  padding: 0;
+}
+
+footer {
+  position: relative;
+}
+
+#fork_knife {
+  position: absolute;
+  left: 45%;
+  top: 165px;
+  z-index: 1;
+  border: solid;
+  border-color: white;
+  border-width: 20px;
+}
+
+.footer_text {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  color: lightgrey;
+}
